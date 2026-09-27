@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace CoffeeMachine.Enum
 {
-    internal class LidStatus
+    public enum LidStatus
     {
+        Open,
+        Closed,
     }
 }

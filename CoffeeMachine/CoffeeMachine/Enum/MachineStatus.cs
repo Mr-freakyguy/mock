@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace CoffeeMachine.Enum
 {
-    internal class MachineStatus
+    public enum MachineStatus
     {
+        SafeMode,
+        Ready,
+        PreHeat,
+        PreInfusion,
+        Brewing,
     }
 }
